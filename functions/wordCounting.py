@@ -11,8 +11,10 @@ def wordFreq(s): #here s is a string offcourse
             freq[word] = 1;  #here word works as a key for dict freq which is taken from a list words
     return freq
 
-s = '''This is the sample string which is very beautiful.
-    But reading this will make you dumb. No worries you are born dumb!'''
+# s = '''This is the sample string which is very beautiful.
+#     But reading this will make you dumb. No worries you are born dumb!'''
+
+s = input("Enter the string : ")
 
 wordCounts = wordFreq(s)
 
