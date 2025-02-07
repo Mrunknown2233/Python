@@ -1,9 +1,5 @@
 
-
-
 #making a list of dictionary for students
-
-
 students = [ 
           {"rollNo" : 1 ,"name" : "Soumya", "percentage" : 89.88},
           {"rollNo" : 2 ,"name" : "Abc","percentage" : 75},
