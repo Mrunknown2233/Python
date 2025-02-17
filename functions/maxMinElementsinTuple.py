@@ -4,10 +4,11 @@ for i in range(0,n):
     #x+=[int(input("Enter the element"))]
     x.append(int(input("Enter the element: ")))
 
-a = tuple(x);
+a = sorted(tuple(x));
 
-sum = 0
-for i in a:
-        sum+=i
+# max = a[len(a)-1]
+max = a[n-1]
+min = a[0]
 
-print(f"sum of all the elements in tuple a {a} is {sum}")
+print(f"For tuple{a} max element in  is {max} and min element in tuple is {min} ")
+
