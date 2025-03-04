@@ -4,8 +4,6 @@ class Employee:
         self.ID = ID
         self.salary = salary
         self.department = department
-
-
 # creating an object of the Employee class with default parameters
 john = Employee(3789, 2500, "Human Resources")
 
