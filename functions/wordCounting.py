@@ -14,6 +14,7 @@ def wordFreq(s): #here s is a string offcourse
 # s = '''This is the sample string which is very beautiful.
 #     But reading this will make you dumb. No worries you are born dumb!'''
 
+
 s = input("Enter the string : ")
 
 wordCounts = wordFreq(s)
