@@ -9,12 +9,12 @@ def print_msg(msg):
         print(msg)
     return printer
 
-clousre_function = print_msg("Hello world")
-clousre_function()
+closure_function = print_msg("Hello world")
+closure_function()
 
 del print_msg
 
-clousre_function()
+closure_function()
 
 #practical example 
 
