@@ -134,12 +134,12 @@ class CurrentAccount(BankAccount):
 savings = SavingsAccount("SA123",1000)
 savings.deposit(2000)
 savings.withdraaw(500)
-savings.add_interest("2025-04-01","2025-04-10")
-savings.print_transactions("2025-04-01","2025-04-10")
+savings.add_interest("2025-04-01","2025-04-11")
+savings.print_transactions("2025-04-01","2025-04-11")
 
 
 current = CurrentAccount("CA456",2000)
 current.withdraaw(6000)
 current.deposit(3000)
-current.levy_interest("2025-04-01","2025-04-10")
-current.print_transactions("2025-04-01","2025-04-10")
+current.levy_interest("2025-04-01","2025-04-11")
+current.print_transactions("2025-04-01","2025-04-11")
